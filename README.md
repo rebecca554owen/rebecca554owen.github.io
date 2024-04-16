@@ -23,15 +23,15 @@
 你可以通用修改 `_config.yml`文件来轻松的开始搭建自己的博客:
 ```
 # Site settings
-title: 你的博客网站标题                    # 你的博客网站标题
-SEOTitle: SEO 标题 | SEO 标题		# SEO 标题
-description: "描述一下"	   	   # 随便说点，描述一下
+title: 你的博客网站标题         	# 你的博客网站标题
+SEOTitle: SEO 标题 | SEO 标题 	# SEO 标题
+description: "描述一下"	   	  	# 随便说点，描述一下
 
 # SNS settings      
 github_username: rebecca554owen # 你的github账号
 
 # Build settings
-# paginate: 10              # 一页你准备放几篇文章
+# paginate: 10              	# 一页你准备放几篇文章
 ```
 
 Jekyll官方网站还有很多的参数可以调，比如设置文章的链接形式...  
@@ -48,7 +48,7 @@ yaml 头文件长这样:
 ---
 layout:     post
 title:      快速搭建个人博客
-subtitle:   手把手教你在半小时内搭建自己的个人博客(如果不踩坑的话🙈🙊🙉)
+subtitle:   用Github Pages搭建自己的个人博客
 date:       2024-04-16
 author:     rebecca554owen
 header-img: img/tag-bg-o.jpg
@@ -56,7 +56,6 @@ catalog: true
 tags:
     - Blog
 ---
-
 ```
 
 ### 侧边栏
@@ -69,7 +68,7 @@ tags:
 # Sidebar settings
 sidebar: true  #添加侧边栏
 sidebar-about-description: "简单的描述一下你自己"
-sidebar-avatar: /img/avatar-by.jpg     #你的大头贴，请使用绝对地址.注意：名字区分大小写！后缀名也是
+sidebar-avatar: /img/avatar-m.jpg     # 请使用绝对地址,注意：名字区分大小写，后缀名也是。
 ```
 
 侧边栏是响应式布局的，当屏幕尺寸小于992px的时候，侧边栏就会移动到底部。  
@@ -113,12 +112,12 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 # Friends
 friends: [
     {
-        title: "BY Blog",
+        title: "周宇航的博客",
         href: "https://rebecca554owen.github.io"
     },
     {
-        title: "Apple",
-        href: "https://apple.com"
+        title: "广告位",
+        href: "https://cn.pornhub.com"
     }
 ]
 ```
