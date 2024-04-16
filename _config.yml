@@ -1,31 +1,32 @@
 # Site settings
 title: 周宇航的博客
-SEOTitle: 周宇航 | 一键脚本
+SEOTitle: 周宇航的博客 | 周宇航 Blog
 header-img: img/home-bg.jpg
 email: rebecca554owen@gmail.com
-description: "Every failure is leading towards success."
-keyword: "周宇航的博客, 一键脚本，linux，docker, OpenPPP2, UDS"
+description: "这里是 周宇航 的个人博客，与你一起发现更大的世界"
+keyword: "周宇航，周宇航的博客，周宇航 Blog，linux，docker，OpenPPP2，UDS"
 url: "https://rebecca554owen.github.io"      # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/rebecca554owen/rebecca554owen.github.io.git" # you code repository
 
+# Publish posts or collection documents with a future date.
+future: true
+
+# SNS settings
+
+RSS: false
+github_username:    rebecca554owen
+
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/avatar_g.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
-
-# SNS settings
-RSS: false
-github_username:    rebecca554owen
-# weibo_username:     rebecca554owen
-# zhihu_username:     rebecca554owen
-# facebook_username:  rebecca554owen
+sidebar-avatar: /img/avatar-hux-home.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 permalink: pretty
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 # Gems
@@ -40,20 +41,16 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
 
 # 评论系统
 # Disqus（https://disqus.com/）
-# disqus_username: qiubaiying
-
-# Gitalk
-gitalk:
-  enable: true    #是否开启Gitalk评论
-  clientID: 573470d23261d2b770c9     #生成的clientID
-  clientSecret: 22e639f7f392761aa9634dc71812aed5a894ea95    #生成的clientSecret
-  repo: rebecca554owen.github.io    #仓库名称
-  owner: rebecca554owen    #github用户名
-  admin: rebecca554owen
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+# disqus_username: rebecca554owen
 
 # 统计
 # Analytics settings
@@ -74,11 +71,6 @@ service-worker: true
 
 # Friends
 friends: [
-    {
-        title: "广告位",
-        href: "https://rebecca554owen.github.io"
-    },{
-        title: "娱乐一下",
-        href: "https://cn.pornhub.com"
-    }
+    {title: "广告位",href: "https://rebecca554owen.github.io"},
+    {title: "娱乐一下",href: "https://cn.pornhub.com"}
 ]
