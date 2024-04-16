@@ -2,9 +2,9 @@
 [![](https://img.shields.io/github/forks/rebecca554owen/rebecca554owen.github.io.svg?style=social&label=Fork)](https://github.com/rebecca554owen/rebecca554owen.github.io)
 
 >
-### [查看博客戳这里 👆](https://rebecca554owen.github.io)
+## [查看博客戳这里 👆](https://rebecca554owen.github.io)
 
-## 使用
+### 使用
 
 * 开始
 	* [开始](#开始)
@@ -25,7 +25,7 @@
 # Site settings
 title: 你的博客网站标题         	# 你的博客网站标题
 SEOTitle: SEO 标题 | SEO 标题 	# SEO 标题
-description: "描述一下"	   	  	# 随便说点，描述一下
+description: "描述一下"	   	# 随便说点，描述一下
 
 # SNS settings      
 github_username: rebecca554owen # 你的github账号
@@ -66,9 +66,9 @@ tags:
 
 ```
 # Sidebar settings
-sidebar: true  #添加侧边栏
+sidebar: true  					#添加侧边栏
 sidebar-about-description: "简单的描述一下你自己"
-sidebar-avatar: /img/avatar-m.jpg     # 请使用绝对地址,注意：名字区分大小写，后缀名也是。
+sidebar-avatar: /img/avatar-m.jpg     		# 请使用绝对地址,注意：名字区分大小写，后缀名也是。
 ```
 
 侧边栏是响应式布局的，当屏幕尺寸小于992px的时候，侧边栏就会移动到底部。  
@@ -97,11 +97,12 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 ### Social-media Account
 
 在下面输入的社交账号，没有的添加的不会显示在侧边框中。  
+```
 	# SNS settings
 	RSS: false
 	github_username:    rebecca554owen
 	# weibo_username:   username
-
+```
 ### Friends
 
 好友链接部分。这会在全部页面显示。
@@ -146,7 +147,7 @@ ga_track_id: 'UA-49627206-1'            # 你用Google账号去注册一个就�
 ga_domain: auto			# 默认的是 auto, 或者自定义域名
 ```
 
-## 致谢
+#### 致谢
 
 1. 这个模板是从这里 [Hux](https://github.com/Huxpro/huxpro.github.io) fork 的, 感谢这个作者。 
 2. 感谢 Jekyll、Github Pages 和 Bootstrap!
