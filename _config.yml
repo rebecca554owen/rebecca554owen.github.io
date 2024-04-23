@@ -71,6 +71,6 @@ service-worker: true
 
 # Friends
 friends: [
-    {title: "广告位",href: "https://rebecca554owen.github.io"},
-    {title: "娱乐一下",href: "https://cn.pornhub.com"}
+    {title: "周宇航的博客",href: "https://rebecca554owen.github.io"},
+    {title: "周宇航的测速面板",href: "https://rebecca554owen.github.io/NetworkPanel"}
 ]
